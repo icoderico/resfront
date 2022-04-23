@@ -1,0 +1,268 @@
+{
+  "navbar": [
+    "Salad",
+    "Soup",
+    "Ceramit",
+    "Donar",
+    "Garnish",
+    "Kebab",
+    "Pizza",
+    "Dessert",
+    "Bread",
+    "Drinks"
+  ],
+
+  "foods": {
+    "Salad": [
+      {
+        "price": 12000,
+        "img": "https://efendi.qrmenus.uz/images/salat/salat_3.webp",
+        "name": "Pentuza",
+        "sastav": ["pentuza", "go'sht", "piyoz", "bodring", "sabzi"]
+      },
+      {
+        "price": 18000,
+        "img": "https://efendi.qrmenus.uz/images/salat/salat_6.webp",
+        "name": "Mujskoy Kapriz",
+        "sastav": ["mayonez", "kolbasa", "pishloq", "tuz va murch"]
+      },
+      {
+        "price": 10000,
+        "img": "https://efendi.qrmenus.uz/images/salat/salat_11.webp",
+        "name": "Svejiy ",
+        "sastav": ["pamidor", "bodring", "piyoz"]
+      },
+      {
+        "price": 22000,
+        "img": "https://efendi.qrmenus.uz/images/salat/salat_9.webp",
+        "name": "Fransuzkiy ",
+        "sastav": ["qizil lavlagi", "sabzili salat", "kartoshka", "mayonez"]
+      }
+    ],
+    "Soup": [
+      {
+        "price": 26000,
+        "img": "https://efendi.qrmenus.uz/images/soup/soup_13.webp",
+        "name": "Chuchvara",
+        "sastav": ["chuchvara", "sabzi", "go'sht", "kartoshka"]
+      },
+      {
+        "price": 24000,
+        "img": "https://efendi.qrmenus.uz/images/soup/soup_12.webp",
+        "name": "Qaynatma",
+        "sastav": ["kartoshka", "go'sht", "nohat", "sabzi"]
+      },
+      {
+        "price": 38000,
+        "img": "https://efendi.qrmenus.uz/images/soup/soup_14.webp",
+        "name": "Ko'za Sho'rva",
+        "sastav": ["Ko'za", "suv", "go'sht", "sabzi"]
+      },
+      {
+        "price": 25000,
+        "img": "https://efendi.qrmenus.uz/images/soup/soup_2.webp",
+        "name": "Tovuq Sho'rva",
+        "sastav": ["tovuq go'sht", "sabzi", "nmadr"]
+      }
+    ],
+    "Ceramit": [
+      {
+        "price": 10000,
+        "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_1.webp",
+        "name": "lavash",
+        "sastav": ["sabzi", "vdsv", "gosht"]
+      },
+      {
+        "price": 10000,
+        "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_2.webp",
+        "name": "lavash",
+        "sastav": ["sabzi", "vdsv", "gosht"]
+      },
+      {
+        "price": 10000,
+        "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_4.webp",
+        "name": "lavash",
+        "sastav": ["sabzi", "vdsv", "gosht"]
+      },
+      {
+        "price": 10000,
+        "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_3.webp",
+        "name": "lavash",
+        "sastav": ["sabzi", "vdsv", "gosht"]
+      }
+    ],
+    "Donar": [
+      {
+        "price": 35000,
+        "img": "https://efendi.qrmenus.uz/images/donar/donar_1.webp",
+        "name": "Donar Big",
+        "sastav": ["mayanez", "nmadr", "gosht"]
+      },
+      {
+        "price": 25000,
+        "img": "https://efendi.qrmenus.uz/images/donar/donar_2.webp",
+        "name": "Donar",
+        "sastav": ["lorem", "nmadr", "gosht"]
+      },
+      {
+        "price": 30000,
+        "img": "https://efendi.qrmenus.uz/images/donar/donar_3.webp",
+        "name": "Donar cheese",
+        "sastav": ["cheese", "nmadr", "gosht"]
+      },
+      {
+        "price": 28000,
+        "img": "https://efendi.qrmenus.uz/images/donar/donar_4.webp",
+        "name": "Donar chili",
+        "sastav": ["lorem", "nmadr", "chili"]
+      }
+    ],
+    "Garnish": [
+      {
+        "price": 30000,
+        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
+        "name": "Garnish",
+        "sastav": ["lorem", "nmadr", "vsvdsv"]
+      },
+      {
+        "price": 30000,
+        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
+        "name": "Garnish",
+        "sastav": ["lorem", "nmadr", "vsvdsv"]
+      },
+      {
+        "price": 30000,
+        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
+        "name": "Garnish",
+        "sastav": ["lorem", "nmadr", "vsvdsv"]
+      },
+      {
+        "price": 30000,
+        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
+        "name": "Garnish",
+        "sastav": ["lorem", "nmadr", "vsvdsv"]
+      }
+    ],
+    "Kebab": [
+      {
+        "price": 18000,
+        "img": "https://efendi.qrmenus.uz/images/kebab/kebab_3.webp",
+        "name": "Turk Kebab",
+        "sastav": ["qiyma", "lorem", "gosht"]
+      },
+      {
+        "price": 20000,
+        "img": "https://efendi.qrmenus.uz/images/kebab/kebab_4.webp",
+        "name": "Jaz ",
+        "sastav": ["lorem", "nmadr", "gosht"]
+      },
+      {
+        "price": 15000,
+        "img": "https://efendi.qrmenus.uz/images/kebab/kebab_6.webp",
+        "name": "Ovoshnoy",
+        "sastav": ["pamidor", "bodring", "gosht"]
+      },
+      {
+        "price": 22000,
+        "img": "https://efendi.qrmenus.uz/images/kebab/kebab_6.webp",
+        "name": "Qiyma",
+        "sastav": ["lorem", "nmadr", "gosht"]
+      }
+    ],
+    "Pizza": [
+      {
+        "price": 50000,
+        "img": "https://efendi.qrmenus.uz/images/pizza/pizza_1.webp",
+        "name": "Pizza Cheese",
+        "sastav": ["cheese", "kalbasa", "gosht"]
+      },
+      {
+        "price": 70000,
+        "img": "https://efendi.qrmenus.uz/images/pizza/pizza_2.webp",
+        "name": "Pizza Chili",
+        "sastav": ["chili", "kalbasa", "sir", "gosht"]
+      },
+      {
+        "price": 65000,
+        "img": "https://efendi.qrmenus.uz/images/pizza/pizza_2.webp",
+        "name": "Big Pizza",
+        "sastav": ["kop kalbasa", "lorem", "ipsum", "gosht"]
+      },
+      {
+        "price": 55000,
+        "img": "https://efendi.qrmenus.uz/images/pizza/pizza_6.webp",
+        "name": "Pizza",
+        "sastav": ["lorem", "nmadr", "gosht"]
+      }
+    ],
+    "Dessert": [
+      {
+        "price": 48000,
+        "img": "https://efendi.qrmenus.uz/images/dessert/dessert_1.webp",
+        "name": "Tort",
+        "sastav": ["shokolad", "shakar", "krem"]
+      },
+      {
+        "price": 32000,
+        "img": "https://efendi.qrmenus.uz/images/dessert/dessert_2.webp",
+        "name": "Medoviy",
+        "sastav": ["lorem", "un", "nmadr"]
+      },
+      {
+        "price": 20000,
+        "img": "https://efendi.qrmenus.uz/images/dessert/dessert_3.webp",
+        "sastav": ["tvorog", "lorem", "shakar", "nmadr"]
+      },
+      {
+        "price": 30000,
+        "img": "https://efendi.qrmenus.uz/images/dessert/dessert_4.webp",
+        "name": "Pechonniy",
+        "sastav": ["un", "shakar", "nmadr", "lorem"]
+      }
+    ],
+    "Bread": [
+      {
+        "price": 2500,
+        "img": "https://efendi.qrmenus.uz/images/bread/bread_2.webp",
+        "name": "Yopkan non"
+      },
+      {
+        "price": 2000,
+        "img": "https://efendi.qrmenus.uz/images/bread/bread_2.webp",
+        "name": "Buxonka"
+      },
+      {
+        "price": 4000,
+        "img": "https://efendi.qrmenus.uz/images/bread/bread_1.webp",
+        "name": "Bulochka"
+      },
+      {
+        "price": 21000,
+        "img": "https://efendi.qrmenus.uz/images/bread/bread_3.webp",
+        "name": "Assorti non"
+      }
+    ],
+    "Drinks": [
+      {
+        "price": 8000,
+        "img": "https://efendi.qrmenus.uz/images/drinks/drinks_5.webp",
+        "name": "Choy"
+      },
+      {
+        "price": 25000,
+        "img": "https://efendi.qrmenus.uz/images/drinks/drinks_20.webp",
+        "name": "Ays Mohito"
+      },
+      {
+        "price": 12000,
+        "img": "https://efendi.qrmenus.uz/images/drinks/drinks_12.webp",
+        "name": "Fanta"
+      },
+      {
+        "price": 13000,
+        "img": "https://efendi.qrmenus.uz/images/drinks/drinks_26.webp",
+        "name": "Kola"
+      }
+    ]
+  }
+}

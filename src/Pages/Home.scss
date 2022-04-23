@@ -1,0 +1,101 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 0 green;
+    div{
+       h3{
+           display: inline-block;
+           vertical-align: middle;
+       }
+       .MuiFormControl-root {
+           vertical-align: middle;
+       }
+        
+    }
+}
+nav{
+    position: fixed;
+    width: 1100px;
+    top: 0;
+    background-color: white;
+    
+}
+.menus{
+    display: flex;
+    margin: 5px 0;
+    overflow-x: scroll;
+
+    .categs{
+        border-radius: 50px;
+        padding: 5px 10px;
+        font-size: 20px;
+        transition: 0.5s;
+        &:hover{
+            background-color: lightgreen;
+        }
+            &:active{
+                background-color: lightgreen;
+            }
+            &:clicked{
+                background-color: lightgreen;
+            }
+    }
+}
+.body{
+    margin-top: 150px;
+}
+.foods{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.Card{
+    cursor: pointer;
+    width: 20%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: wheat;
+    .text{
+        padding: 5px 20px;
+        font-family: 'Ubuntu', sans-serif;
+        h2{
+            font-size: 20px;
+        }
+    }
+    
+}
+@media (max-width: 1140px) {
+        nav{
+            width: 800px;
+        }
+        .Card{
+            width: 28%;
+        }
+    
+}
+@media (max-width: 830px) {
+    nav{
+        width: 600px;
+    }
+    .Card{
+        width: 45%;
+    }
+
+}
+@media (max-width: 640px) {
+    nav{
+        width: 100%;
+    }
+    .Card{
+        width: 45%;
+    }
+    .body{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
