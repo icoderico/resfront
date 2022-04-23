@@ -1,15 +1,15 @@
 {
   "navbar": [
-    "Salad",
-    "Soup",
-    "Ceramit",
-    "Donar",
-    "Garnish",
-    "Kebab",
-    "Pizza",
-    "Dessert",
-    "Bread",
-    "Drinks"
+    { "uz": "Salad", "ru": "Салат", "en": "Salat" },
+    { "uz": "Sho'rva", "ru": "Суп", "en": "Soup" },
+    { "uz": "Keramit", "ru": "Керамит", "en": "Ceramit" },
+    { "uz": "Donar", "ru": "Донар", "en": "Donar" },
+    { "uz": "Garnir", "ru": "Гарнир", "en": "Garnish" },
+    { "uz": "Kabob", "ru": "Кебаб", "en": "Kebab" },
+    { "uz": "Pizza", "ru": "Пицца", "en": "Pizza" },
+    { "uz": "Shirinlik", "ru": "Десерт", "en": "Dessert" },
+    { "uz": "Non", "ru": "Хлеб", "en": "Bread" },
+    { "uz": "Ichimliklar", "ru": "Напитки", "en": "Drinks" }
   ],
 
   "foods": {
@@ -17,77 +17,121 @@
       {
         "price": 12000,
         "img": "https://efendi.qrmenus.uz/images/salat/salat_3.webp",
-        "name": "Pentuza",
+        "name": { "uz": "Pentuza", "ru": "Пентуза", "en": "Pentuza" },
         "sastav": ["pentuza", "go'sht", "piyoz", "bodring", "sabzi"]
       },
       {
         "price": 18000,
         "img": "https://efendi.qrmenus.uz/images/salat/salat_6.webp",
-        "name": "Mujskoy Kapriz",
+        "name": {
+          "uz": "Erkakcha Kapriz",
+          "ru": "Мужской каприз",
+          "en": "male whim"
+        },
         "sastav": ["mayonez", "kolbasa", "pishloq", "tuz va murch"]
       },
       {
         "price": 10000,
         "img": "https://efendi.qrmenus.uz/images/salat/salat_11.webp",
-        "name": "Svejiy ",
+        "name": {
+          "uz": "Svejiy",
+          "ru": "Свежий",
+          "en": "Fresh Salad"
+        },
         "sastav": ["pamidor", "bodring", "piyoz"]
       },
       {
         "price": 22000,
         "img": "https://efendi.qrmenus.uz/images/salat/salat_9.webp",
-        "name": "Fransuzkiy ",
+        "name": {
+          "uz": "Fransuzkiy",
+          "ru": "французский салат",
+          "en": "french Salad"
+        },
         "sastav": ["qizil lavlagi", "sabzili salat", "kartoshka", "mayonez"]
       }
     ],
-    "Soup": [
+    "Sho'rva": [
       {
         "price": 26000,
         "img": "https://efendi.qrmenus.uz/images/soup/soup_13.webp",
-        "name": "Chuchvara",
+        "name": {
+          "uz": "Chuchvara",
+          "ru": "Чучвара",
+          "en": "Chuchvara"
+        },
         "sastav": ["chuchvara", "sabzi", "go'sht", "kartoshka"]
       },
       {
         "price": 24000,
         "img": "https://efendi.qrmenus.uz/images/soup/soup_12.webp",
-        "name": "Qaynatma",
+        "name": {
+          "uz": "Qaynatma",
+          "ru": "Кипящий суп",
+          "en": "Boiled Soup"
+        },
         "sastav": ["kartoshka", "go'sht", "nohat", "sabzi"]
       },
       {
         "price": 38000,
         "img": "https://efendi.qrmenus.uz/images/soup/soup_14.webp",
-        "name": "Ko'za Sho'rva",
+        "name": {
+          "uz": "Ko'za Sho'rva",
+          "ru": "Кувшинный суп",
+          "en": "Jug Soup"
+        },
         "sastav": ["Ko'za", "suv", "go'sht", "sabzi"]
       },
       {
         "price": 25000,
         "img": "https://efendi.qrmenus.uz/images/soup/soup_2.webp",
-        "name": "Tovuq Sho'rva",
+        "name": {
+          "uz": "Tovuq Sho'rva",
+          "ru": "Куриный суп",
+          "en": "Chicken Soup"
+        },
         "sastav": ["tovuq go'sht", "sabzi", "nmadr"]
       }
     ],
-    "Ceramit": [
+    "Keramit": [
       {
         "price": 10000,
         "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_1.webp",
-        "name": "lavash",
+        "name": {
+          "uz": "Tovuq Keramit",
+          "ru": "Куриный  Керамит",
+          "en": "Ceramit Tavuk"
+        },
         "sastav": ["sabzi", "vdsv", "gosht"]
       },
       {
         "price": 10000,
         "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_2.webp",
-        "name": "lavash",
+        "name": {
+          "uz": "Go'shtli Keramit",
+          "ru": "Мясной Керамит",
+          "en": "Ceramit Meat"
+        },
         "sastav": ["sabzi", "vdsv", "gosht"]
       },
       {
         "price": 10000,
         "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_4.webp",
-        "name": "lavash",
+        "name": {
+          "uz": "Qo'ziqorinli keramit",
+          "ru": "Керамит С Грибами",
+          "en": "Ceramit With Mushrooms"
+        },
         "sastav": ["sabzi", "vdsv", "gosht"]
       },
       {
         "price": 10000,
         "img": "https://efendi.qrmenus.uz/images/ceramit/ceramit_3.webp",
-        "name": "lavash",
+        "name": {
+          "uz": "Revaniye",
+          "ru": "Келес Тава",
+          "en": "Revaniye"
+        },
         "sastav": ["sabzi", "vdsv", "gosht"]
       }
     ],
@@ -95,77 +139,125 @@
       {
         "price": 35000,
         "img": "https://efendi.qrmenus.uz/images/donar/donar_1.webp",
-        "name": "Donar Big",
+        "name": {
+          "uz": "Turli xil doner",
+          "ru": "Ассорти Донер",
+          "en": "Assorted Doner"
+        },
         "sastav": ["mayanez", "nmadr", "gosht"]
       },
       {
         "price": 25000,
         "img": "https://efendi.qrmenus.uz/images/donar/donar_2.webp",
-        "name": "Donar",
+        "name": {
+          "uz": "Durum doneri",
+          "ru": "Донер Дурум",
+          "en": "Dоnеr Durum"
+        },
         "sastav": ["lorem", "nmadr", "gosht"]
       },
       {
         "price": 30000,
         "img": "https://efendi.qrmenus.uz/images/donar/donar_3.webp",
-        "name": "Donar cheese",
+        "name": {
+          "uz": "Go'shtli Iskandar kabob",
+          "ru": "Мясной Искандер Кебаб  ",
+          "en": "Beef Iskander Kebab"
+        },
         "sastav": ["cheese", "nmadr", "gosht"]
       },
       {
         "price": 28000,
         "img": "https://efendi.qrmenus.uz/images/donar/donar_4.webp",
-        "name": "Donar chili",
+        "name": {
+          "uz": "Donar Burger",
+          "ru": "Донер Бургер",
+          "en": "Donar Burger"
+        },
         "sastav": ["lorem", "nmadr", "chili"]
       }
     ],
-    "Garnish": [
+    "Garnir": [
       {
         "price": 30000,
-        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
-        "name": "Garnish",
+        "img": "https://efendi.qrmenus.uz/images/garnir/garnir_1.webp",
+        "name": {
+          "uz": "Turkcha guruch",
+          "ru": "Турецкий рис",
+          "en": "Turkish Rice"
+        },
         "sastav": ["lorem", "nmadr", "vsvdsv"]
       },
       {
         "price": 30000,
-        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
-        "name": "Garnish",
+        "img": "https://efendi.qrmenus.uz/images/garnir/garnir_2.webp",
+        "name": {
+          "uz": "Quadro",
+          "ru": "Квадро",
+          "en": "Quadro"
+        },
         "sastav": ["lorem", "nmadr", "vsvdsv"]
       },
       {
         "price": 30000,
-        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
-        "name": "Garnish",
+        "img": "https://efendi.qrmenus.uz/images/garnir/garnir_4.webp",
+        "name": {
+          "uz": "Fransuzcha fri",
+          "ru": "Келес Тава",
+          "en": "French Fries"
+        },
         "sastav": ["lorem", "nmadr", "vsvdsv"]
       },
       {
         "price": 30000,
-        "img": "https://scontent.ftas1-2.fna.fbcdn.net/v/t1.6435-9/161374596_180173743913323_8845907989491757509_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VYSsbL5tgl0AX-v58Ws&_nc_ht=scontent.ftas1-2.fna&oh=00_AT-XTexkXKNk4EnSO7kppZzQzjWhN3FLYqcNS-OxajjBAA&oe=62888529",
-        "name": "Garnish",
+        "img": "https://efendi.qrmenus.uz/images/garnir/garnir_5.webp",
+        "name": {
+          "uz": "Guruch",
+          "ru": "Рис",
+          "en": "Rice"
+        },
         "sastav": ["lorem", "nmadr", "vsvdsv"]
       }
     ],
-    "Kebab": [
+    "Kabob": [
       {
         "price": 18000,
         "img": "https://efendi.qrmenus.uz/images/kebab/kebab_3.webp",
-        "name": "Turk Kebab",
+        "name": {
+          "uz": "Mol go'shti kabobi",
+          "ru": "Кебаб из говядины",
+          "en": "Beef Kebab"
+        },
         "sastav": ["qiyma", "lorem", "gosht"]
       },
       {
         "price": 20000,
         "img": "https://efendi.qrmenus.uz/images/kebab/kebab_4.webp",
-        "name": "Jaz ",
+        "name": {
+          "uz": "Urfa Kabob",
+          "ru": "Урфа Кебаб ",
+          "en": "Urfa Kebab"
+        },
         "sastav": ["lorem", "nmadr", "gosht"]
       },
       {
         "price": 15000,
         "img": "https://efendi.qrmenus.uz/images/kebab/kebab_6.webp",
-        "name": "Ovoshnoy",
+        "name": {
+          "uz": "Tovuqli Shish Kabob",
+          "ru": "Куриный шашлык",
+          "en": "Chicken Shish Kebab"
+        },
         "sastav": ["pamidor", "bodring", "gosht"]
       },
       {
         "price": 22000,
         "img": "https://efendi.qrmenus.uz/images/kebab/kebab_6.webp",
-        "name": "Qiyma",
+        "name": {
+          "uz": "Kеlеѕ Tava",
+          "ru": "Келес Тава",
+          "en": "Kеlеѕ Tava"
+        },
         "sastav": ["lorem", "nmadr", "gosht"]
       }
     ],
@@ -173,95 +265,160 @@
       {
         "price": 50000,
         "img": "https://efendi.qrmenus.uz/images/pizza/pizza_1.webp",
-        "name": "Pizza Cheese",
+        "name": {
+          "uz": "Pitsa Kombi",
+          "ru": "Пицца Комби Средняя",
+          "en": "Tavuk Pizza «Combined» Large"
+        },
         "sastav": ["cheese", "kalbasa", "gosht"]
       },
       {
         "price": 70000,
         "img": "https://efendi.qrmenus.uz/images/pizza/pizza_2.webp",
-        "name": "Pizza Chili",
+        "name": {
+          "uz": "Lahmajun",
+          "ru": "Лахмажун",
+          "en": "Lakhmajun"
+        },
         "sastav": ["chili", "kalbasa", "sir", "gosht"]
       },
       {
         "price": 65000,
-        "img": "https://efendi.qrmenus.uz/images/pizza/pizza_2.webp",
-        "name": "Big Pizza",
+        "img": "https://efendi.qrmenus.uz/images/pizza/pizza_4.webp",
+        "name": {
+          "uz": "Pishloqli Pide",
+          "ru": "Cheese Pide",
+          "en": "Сырное Пиде"
+        },
         "sastav": ["kop kalbasa", "lorem", "ipsum", "gosht"]
       },
       {
         "price": 55000,
         "img": "https://efendi.qrmenus.uz/images/pizza/pizza_6.webp",
-        "name": "Pizza",
+        "name": {
+          "uz": "Sabzavotli pizza",
+          "ru": "Овощная Пицца",
+          "en": "Karişik Pide"
+        },
         "sastav": ["lorem", "nmadr", "gosht"]
       }
     ],
-    "Dessert": [
+    "Shirinlik": [
       {
         "price": 48000,
         "img": "https://efendi.qrmenus.uz/images/dessert/dessert_1.webp",
-        "name": "Tort",
+        "name": {
+          "uz": "Shokolad keks",
+          "ru": "Шоколадный Кекс",
+          "en": "hocolate cake"
+        },
         "sastav": ["shokolad", "shakar", "krem"]
       },
       {
         "price": 32000,
         "img": "https://efendi.qrmenus.uz/images/dessert/dessert_2.webp",
-        "name": "Medoviy",
+        "name": {
+          "uz": "Paxlava",
+          "ru": "Пахлава",
+          "en": "Baklava Durum"
+        },
         "sastav": ["lorem", "un", "nmadr"]
       },
       {
         "price": 20000,
         "img": "https://efendi.qrmenus.uz/images/dessert/dessert_3.webp",
+        "name": {
+          "uz": "Revaniye",
+          "ru": "Revaniye",
+          "en": "Revaniye"
+        },
         "sastav": ["tvorog", "lorem", "shakar", "nmadr"]
       },
       {
         "price": 30000,
         "img": "https://efendi.qrmenus.uz/images/dessert/dessert_4.webp",
-        "name": "Pechonniy",
+        "name": {
+          "uz": "Muzqaymoq",
+          "ru": "Mopoженoe",
+          "en": "Ice cream"
+        },
         "sastav": ["un", "shakar", "nmadr", "lorem"]
       }
     ],
-    "Bread": [
+    "Non": [
       {
         "price": 2500,
         "img": "https://efendi.qrmenus.uz/images/bread/bread_2.webp",
-        "name": "Yopkan non"
+        "name": {
+          "uz": "Pita non",
+          "ru": "Лаваш Хлеб",
+          "en": "Pita"
+        }
       },
       {
         "price": 2000,
         "img": "https://efendi.qrmenus.uz/images/bread/bread_2.webp",
-        "name": "Buxonka"
+        "name": {
+          "uz": "Pita non",
+          "ru": "Лаваш Хлеб",
+          "en": "Pita"
+        }
       },
       {
         "price": 4000,
         "img": "https://efendi.qrmenus.uz/images/bread/bread_1.webp",
-        "name": "Bulochka"
+        "name": {
+          "uz": "Afgan non",
+          "ru": "Афганский Хлеб",
+          "en": "Afgan Ekmek"
+        }
       },
       {
         "price": 21000,
         "img": "https://efendi.qrmenus.uz/images/bread/bread_3.webp",
-        "name": "Assorti non"
+        "name": {
+          "uz": "Non",
+          "ru": "Фирменный Хлеб",
+          "en": "Baked Bread Efendi"
+        }
       }
     ],
-    "Drinks": [
+    "Ichimliklar": [
       {
         "price": 8000,
         "img": "https://efendi.qrmenus.uz/images/drinks/drinks_5.webp",
-        "name": "Choy"
+        "name": {
+          "uz": "Choy",
+          "ru": "Чай",
+          "en": "Tea"
+        }
       },
       {
         "price": 25000,
         "img": "https://efendi.qrmenus.uz/images/drinks/drinks_20.webp",
-        "name": "Ays Mohito"
+        "name": {
+          "uz": "Tarhun Ichimlik",
+          "ru": "Тархун Напиток",
+          "en": "Tarhun Içeceği"
+        }
       },
       {
         "price": 12000,
         "img": "https://efendi.qrmenus.uz/images/drinks/drinks_12.webp",
-        "name": "Fanta"
+        "name": {
+          "uz": "Kappuchino",
+          "ru": "Капучино",
+          "en": "Cappuccino"
+        }
       },
       {
         "price": 13000,
         "img": "https://efendi.qrmenus.uz/images/drinks/drinks_26.webp",
-        "name": "Kola"
+        "name": {
+          "uz": "Frappuchino",
+          "ru": "Фраппучино",
+          "en": "Frappuccino"
+        }
       }
     ]
   }

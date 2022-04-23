@@ -6,25 +6,31 @@ import Select from "@mui/material/Select";
 import "./Home.scss";
 import data from "./data.json";
 import Card from "./../Components/Card";
-const HomePage = () => {
-  const [age, setAge] = useState("");
+import { useTranslation } from "react-i18next";
 
+const HomePage = () => {
+  const { t, i18n } = useTranslation();
+  if (!i18n.language) {
+    i18n.changeLanguage("ru");
+  }
   const handleChange = (event) => {
-    setAge(event.target.value);
+    i18n.changeLanguage(event.target.value);
   };
+  let curlang = i18n.language;
+
   return (
     <>
       <nav>
         <div className="top-nav">
           <h1>logo</h1>
           <div>
-            <h3>about us</h3>
+            <h3>{t("about")}</h3>
             <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
               <InputLabel id="demo-select-small">Til</InputLabel>
               <Select
                 labelId="demo-select-small"
                 id="demo-select-small"
-                value={age}
+                value={curlang}
                 label="Til"
                 onChange={handleChange}
               >
@@ -36,10 +42,10 @@ const HomePage = () => {
           </div>
         </div>
         <div className="menus">
-          {data.navbar.map((categ) => {
+          {data?.navbar.map((categ) => {
             return (
               <div className="categs">
-                <a href={`#${categ}`}>{categ}</a>
+                <a href={`#${categ.uz}`}>{categ[curlang]}</a>
               </div>
             );
           })}
@@ -47,10 +53,11 @@ const HomePage = () => {
       </nav>
 
       <div className="body">
-        {data.navbar.map((categ) => {
+        {data.navbar.map((category) => {
+          let categ = category.uz;
           return (
             <div id={categ}>
-              <h1>{categ}</h1> <br />
+              <h1>{category[curlang]}</h1> <br />
               <div className="foods">
                 {data.foods[categ].map((food, ind) => {
                   return <Card key={ind} food={food} />;

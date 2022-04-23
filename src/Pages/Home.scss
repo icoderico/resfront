@@ -59,6 +59,9 @@ nav{
     border-radius: 20px;
     overflow: hidden;
     background-color: wheat;
+    img{
+        background-color: lightgreen;
+    }
     .text{
         padding: 5px 20px;
         font-family: 'Ubuntu', sans-serif;
@@ -96,6 +99,7 @@ nav{
     .body{
         width: 95%;
         margin: 0 auto;
+        padding-top: 100px;
     }
 
 }
